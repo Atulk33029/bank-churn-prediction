@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="YOUR_STREAMLIT_URL_HERE"><b>🔗 Live Demo</b></a> ·
+  <a href="https://bank-churn-prediction-duizieaxum4fgqxvfhuw9w.streamlit.app/"><b>🔗 Live Demo</b></a> ·
   <a href="https://colab.research.google.com/github/Atulk33029/bank-churn-prediction/blob/main/notebooks/churn_analysis_colab.ipynb"><b>📓 Open in Colab</b></a> ·
   <a href="#-results">Results</a> ·
   <a href="#-key-findings">Key Findings</a> ·
