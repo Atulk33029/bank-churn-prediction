@@ -1,0 +1,82 @@
+{
+  "comparison": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.808,
+      "precision": 0.5864661654135338,
+      "recall": 0.19164619164619165,
+      "f1": 0.28888888888888886,
+      "roc_auc": 0.7725830607186539
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.8605,
+      "precision": 0.7758620689655172,
+      "recall": 0.44226044226044225,
+      "f1": 0.5633802816901409,
+      "roc_auc": 0.8400272383323231
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.872,
+      "precision": 0.8385650224215246,
+      "recall": 0.4594594594594595,
+      "f1": 0.5936507936507937,
+      "roc_auc": 0.8637142535447621
+    }
+  ],
+  "best_model": "Random Forest",
+  "cv_accuracy_mean": 0.8658999999999999,
+  "cv_accuracy_std": 0.0052858301145610066,
+  "top_features": [
+    {
+      "feature": "Age",
+      "importance": 0.26944328838023796
+    },
+    {
+      "feature": "NumOfProducts",
+      "importance": 0.18145719152669687
+    },
+    {
+      "feature": "BalancePerProduct",
+      "importance": 0.08756099651790238
+    },
+    {
+      "feature": "Balance",
+      "importance": 0.07203352771302851
+    },
+    {
+      "feature": "CreditScore",
+      "importance": 0.0696487272447356
+    },
+    {
+      "feature": "TenurePerAge",
+      "importance": 0.06953873515307203
+    },
+    {
+      "feature": "EstimatedSalary",
+      "importance": 0.06801333429843466
+    },
+    {
+      "feature": "IsActiveMember",
+      "importance": 0.05641304897545147
+    },
+    {
+      "feature": "Geography_Germany",
+      "importance": 0.04399279336033659
+    },
+    {
+      "feature": "Tenure",
+      "importance": 0.0364135354979498
+    },
+    {
+      "feature": "Gender_Male",
+      "importance": 0.016429889670995484
+    },
+    {
+      "feature": "ZeroBalance",
+      "importance": 0.010471416202593321
+    }
+  ],
+  "n_records": 10000
+}

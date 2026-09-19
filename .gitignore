@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+
+# Raw dataset (download from Kaggle - see data/README.md)
+data/*.csv
+
+# Power BI working files over 25MB
+*.pbix.bak
