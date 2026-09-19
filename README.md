@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="YOUR_STREAMLIT_URL_HERE"><b>🔗 Live Demo</b></a> ·
+  <a href="https://bank-churn-prediction-duizieaxum4fgqxvfhuw9w.streamlit.app/"><b>🔗 Live Demo</b></a> ·
   <a href="https://colab.research.google.com/github/Atulk33029/bank-churn-prediction/blob/main/notebooks/churn_analysis_colab.ipynb"><b>📓 Open in Colab</b></a> ·
   <a href="#-results">Results</a> ·
   <a href="#-key-findings">Key Findings</a> ·
@@ -95,18 +95,22 @@ model isn't overfitting to one particular split.
 </p>
 
 Enter a customer profile and get an instant churn probability with a Low / Medium / High risk band and a
-recommended retention action. **[Try it live →](YOUR_STREAMLIT_URL_HERE)**
+recommended retention action. **[Try it live →](https://bank-churn-prediction-duizieaxum4fgqxvfhuw9w.streamlit.app/)**
 
 ---
 
 ## 📈 Power BI Dashboard
 
 <p align="center">
-  <img src="reports/figures/powerbi_page1.png" width="80%">
+  <img src="reports/figures/powerbi_page1.png" width="90%">
+  <br><br>
+  <img src="reports/figures/powerbi_page2.png" width="90%">
 </p>
 
 Two pages — an executive overview (churn rate KPIs, geography and age breakdowns, revenue at risk) and a
-targeting page listing the highest-probability customers for outreach. Build instructions in
+targeting page listing the highest-probability customers for outreach, with a risk heatmap by
+geography × age and a bubble chart showing which age group carries both the highest balance and the
+highest churn risk. Build instructions in
 [`powerbi/README.md`](powerbi/README.md).
 
 ---
